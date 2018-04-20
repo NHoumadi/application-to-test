@@ -31,6 +31,7 @@ class GithubUserProviderTest extends \PHPUnit_Framework_TestCase
         $this->response = $this
             ->getMockBuilder('Psr\Http\Message\ResponseInterface')
             ->getMock();
+        //
     }
 
     public function testLoadUserByUsernameReturningAUser()
